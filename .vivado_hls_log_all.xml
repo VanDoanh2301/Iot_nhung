@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [SCA 200-203] Cannot find top module 'SYSTEM', please check the specified module name.&#xD;&#xA;command 'sc_get_modules' returned error code&#xD;&#xA;SystemC analyzing failed&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/manhn/AppData/Roaming/Xilinx/Vivado/FIR_VIVADO/solution1/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/manhn/AppData/Roaming/Xilinx/Vivado/FIR_VIVADO/solution1/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="FIR_VIVADO" solutionName="solution1" date="2023-06-19T17:37:56.819+0700"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'fir::fir_main' to 'fir_main' (FIR_VIVADO/fir.cpp:3)" projectName="FIR_VIVADO" solutionName="solution1" date="2023-06-19T17:37:56.422+0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] 'Loop-2' (FIR_VIVADO/fir.cpp:17:17) in function 'fir::fir_main' is an infinite loop." projectName="FIR_VIVADO" solutionName="solution1" date="2023-06-19T17:37:56.382+0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
